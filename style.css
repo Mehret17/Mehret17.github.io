@@ -12,15 +12,16 @@
     margin: 0;
 } 
 nav{
-    text-align: left;
+    text-align: right;
     Padding-right: 20px;
     font-size: 20px;
+    padding-top: 18px;
 
 
 }
 
 nav a:hover {
-    color: black;
+    color: white;
 }
 
 h1{
@@ -32,11 +33,32 @@ footer {
     text-align: center;
     height: 65px;
     width: 100%;
+    padding-right: 15%;
+}
+
+/* footer {
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    line-height: 34px;
+    text-align: right;
+    padding-right: 5%;
+    border-top: 1px solid white; */
+
+header a {
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color: #9cf;
 }
 header {
     background-color: gray;
     height: 65px;
     width: 100%;
+    text-align: right;
+    padding-right: 5%;
+    text-decoration: none;
 }
 img{
     width: 150px;
