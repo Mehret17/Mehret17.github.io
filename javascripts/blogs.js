@@ -1,4 +1,4 @@
-var blogs = [
+ const blogs = [
     {
       id: "blog1", 
       title: "Week 1", 
@@ -16,24 +16,50 @@ var blogs = [
       title: "Week 3", 
       date: "02/26/2018", 
       post: "Advance array method was one of the topic covered on this week’s lesson. Once I get the hang of it I am positive that I will be grateful for these methods but with my current state not quite there yet but will definitely be soon. We also covered how team mates work in one project from beginning to end. Coming up with ideas on how to design the web page, listing what kind of data is needed and assigning tickets for each task. Went over free framework tools and how to use them – found this one to be very interesting – where the frame work tool we used can be shared and at the same be edited by different team mates makes collaboration so easy."
-      }
+      },
+    {
+      id: "blog4", 
+      title: "Week 4 and 5", 
+      date: "03/12/2018", 
+      post: "In the past weeks was the first git project we had as a group. We were instructed to build a band website with different pages linking to the home page so each of my group members were working on one page but we could only use one js file which led to git conflict when we tried to merge to master. I can say I learned quite a lot about git incidents from this exercise and how to resolve the conflicts. After completing the group assignments, we learned ES6 which looks kind of fancy and easy but a tiny bit confusing, I guess the confusion part won’t stay for long. We also covered interacting and traversing in DOM which I believe is the biggest part of JS to make a web page interactive."
+     }
   ];
 
+// E5 js
+  // var blogString = "";
+  // function createBlogPosts(){
+  //     blogs.forEach(function(blogs) {
+  //         blogString += "<div class='blogPost'>";
+  //         blogString += "<h2>" + blogs.title + "</h2>";
+  //         blogString += "<h4>" + blogs.date + "</h4>";
+  //         blogString += "<p>" + blogs.post + "</p>";
+  //         blogString += "</div>";
+  //         printToDom (blogString, 'my-blogs')
+  //     })
+  // }
 
-  var blogString = "";
-  function createBlogPosts(){
-      blogs.forEach(function(blogs) {
-          blogString += "<div class='blogPost'>";
-          blogString += "<h2>" + blogs.title + "</h2>";
-          blogString += "<h4>" + blogs.date + "</h4>";
-          blogString += "<p>" + blogs.post + "</p>";
-          blogString += "</div>";
-          printToDom (blogString, 'my-blogs')
-      })
-  }
+  //   function printToDom(blogString, divId) {
+  // document.getElementById(divId).innerHTML = blogString
+  // }
 
-    function printToDom(blogString, divId) {
-  document.getElementById(divId).innerHTML = blogString
-  }
+  // createBlogPosts();
+
+// ES6 JS
+
+const printToDom = (domString, divId) => {
+   document.getElementById(divId).innerHTML = domString;
+};
+
+  const createBlogPosts = (blogsArray) => {
+    let domString=  '';
+    blogs.forEach((blogs) =>{
+      domString += `<div class = "blogPost">`;
+      domString +=    `<h2>${blogs.title}</h2>`;
+      domString +=    `<h4>${blogs.date}</h4>`;
+      domString +=    `<p>${blogs.post}</p>`;
+      domString += `</div>`; 
+    });
+  printToDom (domString, 'my-blogs');
+  };
 
   createBlogPosts();
