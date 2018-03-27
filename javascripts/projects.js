@@ -59,7 +59,7 @@ var projects = [
 
     projects.forEach(function(projects){
       domProject += "<div class='projectsCard'>";
-      domProject += "<h3>" + projects.title + "</h1>";
+      domProject += "<h3>" + projects.title + "</h3>";
       domProject += "<img src=" + projects.imageUrl +">";
       domProject += "<p>" + projects.description + "</p>"
       domProject += "<a href=" + projects.githubUrl + ">click here for for more information</a>"
