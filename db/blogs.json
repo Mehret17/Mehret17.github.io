@@ -28,7 +28,16 @@
     "id": "blog5", 
         "title": "Week 6", 
         "date": "03/26/2018", 
-        "post": "Placeholder - need to write blog for this week"
-    }
+        "post": "This week we looked at how to bring in data from a different database and load it in the webpage we are working on. It doesnt seem complicated might be a bit trickier."
+        
+    },
+    {
+      "id": "blog6", 
+          "title": "Week 7", 
+          "date": "04/2/2018", 
+          "post": "Bootstrap grid system and how to get to set of data from two different Json file is what we've looked at this week. We focused on how to link two different data sets by their common key."
+          
+      }
+
   ]
 }
