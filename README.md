@@ -1,4 +1,4 @@
-# CSSZenGarden
+# Personalsite
 
 ## Description
 Portfolio of MK which includes summary of professional History, projects done, and weekly blog during my stay at NSS
