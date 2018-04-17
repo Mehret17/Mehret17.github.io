@@ -37,7 +37,14 @@
           "date": "04/2/2018", 
           "post": "Bootstrap grid system and how to get to set of data from two different Json file is what we've looked at this week. We focused on how to link two different data sets by their common key."
           
-      }
+      },
+      {
+        "id": "blog7", 
+            "title": "Week 8", 
+            "date": "04/2/2018", 
+            "post": "Task Runners and Browserify are the topics we covered this week. The confusing part for me is where we are requiring and exporting. Before browsify we did all the code in one main.js file, now we have everything in a different js files and we require and export the functions on the other files...hmmm its a bit confusing but i believe that it will be easier once i get the hang of it."
+            
+        }
 
   ]
 }
