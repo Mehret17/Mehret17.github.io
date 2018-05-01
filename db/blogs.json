@@ -26,25 +26,28 @@
      },
     {
     "id": "blog5", 
-        "title": "Week 6", 
-        "date": "03/26/2018", 
-        "post": "This week we looked at how to bring in data from a different database and load it in the webpage we are working on. It doesnt seem complicated might be a bit trickier."
+    "title": "Week 6", 
+    "date": "03/26/2018", 
+    "post": "This week we looked at how to bring in data from a different database and load it in the webpage we are working on. It doesnt seem complicated might be a bit trickier."
         
     },
     {
-      "id": "blog6", 
-          "title": "Week 7", 
-          "date": "04/2/2018", 
-          "post": "Bootstrap grid system and how to get to set of data from two different Json file is what we've looked at this week. We focused on how to link two different data sets by their common key."
-          
-      },
-      {
-        "id": "blog7", 
-            "title": "Week 8", 
-            "date": "04/2/2018", 
-            "post": "Task Runners and Browserify are the topics we covered this week. The confusing part for me is where we are requiring and exporting. Before browsify we did all the code in one main.js file, now we have everything in a different js files and we require and export the functions on the other files...hmmm its a bit confusing but i believe that it will be easier once i get the hang of it."
-            
-        }
-
+    "id": "blog6", 
+    "title": "Week 7", 
+    "date": "04/2/2018", 
+    "post": "Bootstrap grid system and how to get to set of data from two different Json file is what we've looked at this week. We focused on how to link two different data sets by their common key."  
+    },
+    {
+    "id": "blog7", 
+    "title": "Week 8", 
+    "date": "04/2/2018", 
+    "post": "Task Runners and Browserify are the topics we covered this week. The confusing part for me is where we are requiring and exporting. Before browsify we did all the code in one main.js file, now we have everything in a different js files and we require and export the functions on the other files...hmmm its a bit confusing but i believe that it will be easier once i get the hang of it."    
+    },
+    {
+    "id": "blog8", 
+    "title": "Week 9", 
+    "date": "04/16/2018", 
+    "post": "Now that it’s the second week of using browserify I am getting the hang of it. Eventhough I get irritated when grunt yells at me when I make errors I like the fact that its keeping my code clean and neat. I still need to work more on understanding the circular dependency issues and how to solve the function related errors the grunt throws out."
+    }
   ]
 }
