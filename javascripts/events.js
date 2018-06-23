@@ -1,4 +1,5 @@
 const blogsEvent = require('./blogs/blogsEvents');
+const projectsEvent = require('./projects/projectsEvents');
 
 const navLinks = () => {
   $(document).click((e) => {
@@ -17,12 +18,13 @@ const navLinks = () => {
       $('#resumePage').addClass('hide');
       $('#projectsPage').removeClass('hide');
       $('#blogsPage').addClass('hide');
+      blogsEvent.getAllBlogsEvent();
     } else if (e.target.id === 'blogs') {
       $('#homePage').addClass('hide');
       $('#resumePage').addClass('hide');
       $('#projectsPage').addClass('hide');
       $('#blogsPage').removeClass('hide');
-      blogsEvent.getAllBlogsEvent();
+      projectsEvent.getAllProjectsEvent();
 
     };
   });

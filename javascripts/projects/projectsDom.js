@@ -1,5 +1,5 @@
 
-const projectDiv = $('#myProject');
+const projectDiv = $('#myProjects');
 
 const createProjectsCard = (projectArray) => {
   let projectString = '';
