@@ -77,7 +77,13 @@
     "id": "blog13", 
     "title": "Firebase", 
     "date": "05/28/2018", 
-    "post": "A Realtime database and cloud hosted database where data is stored. I haven’t gotten to do this in my assignment yet but I can wait. I’ve heard the words creating, deleting, updating  databases in the past few years and this is something I have an interest in. When I look at it in class it seems a bit complicated but I am positive that once I start working on it the pieces will fall in place. Since we were told not to trust the internet documentation with firebase as much as I want to google and know more about it I am wary to do that as I really don’t want to confuse myself and also get the wrong information. All i can say is I can’t wait to try what I’ve learned in class it might not be simple but I up for the challenge 😊."
+    "post": "A Realtime database and cloud hosted database where data is stored. I haven’t gotten to do this in my assignment yet but I can wait. I’ve heard the words creating, deleting, updating  databases in the past few years and this is something I have an interest in. When I look at it in class it seems a bit complicated but I am positive that once I start working on it the pieces will fall in place. Since we were told not to trust the internet documentation with firebase as much as I want to google and know more about it I am wary to do that as I really don’t want to confuse myself and also get the wrong information. All i can say is I can’t wait to try what I’ve learned in class it might not be simple but I am up for the challenge 😊."
+  },
+  {
+    "id": "blog14", 
+    "title": "Firebase Auth", 
+    "date": "05/28/2018", 
+    "post": "This week we learned about Firebase Authentication. I see authentication in my day to day life but has never occurred to me how that is being created weather when registering or signing into different websites. It was fascinating learning about the back end side of it and i am sure the more i apply it in projects i will learn more fascinating things about authentication."
   } 
   ]
 }
