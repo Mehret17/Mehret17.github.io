@@ -1,73 +1,81 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <title>Professional Background</title>
-    <link rel="stylesheet"href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Mehret Kulala</title>
 </head>
-<div class ="body-wrapper"></div>
-<header>
-        
-        <nav>
-            <a href="contact.html">Contact</a> 
-            <a href="project.html">Project</a>
-            <a href="blgs.html">Blog</a>
-            <a href="funFact.html">Fun Fact</a>
-        </nav>
-</header>
+
 <body>
-        <h1>Mehret Kulala</h1>
-<article>
-    <h2><strong>Service Source – Nashville, Tennessee May 2015 - Present </strong></h2> 
-    <section>
-    <h3></em>Business intelligence Analyst</em></h3>  
-   <ul>                                                                        
-    <li>Responsible for gathering raw reports from the client to generate different reports and insights for better decision making</li>
-    <li>Perform a weekly data analysis and scrub per the business rules and load into the CRM using ULU</li>
-    <li>Maintain iportal (client system) and 1platform to improve data integration</li>
-    <li>Generate ad-hoc reports using SQL and Excel to give insight into the business to sales management and client contacts</li>
-    <li>Created an improved, more efficient rep/territory alignment process</li>
-    <li>Generate monthly client invoice using Excel</li>
-    <li>Generate sales quotations and booking package using client-specific database and financial systems</li>
-    <li>Validate data integrity of purchase orders and invoices</li>
-    <li>Check/ validate data integrity stored on client’s database and financial system</li>
-    <li>Run quality assurance analysis</li>
-    <li>Train team member on new processes</li>
-   </ul>
-</section>      
-</article>
-<article>
-    <h2><strong>Asurion – Smyrna, Tennessee Nov 2012 - Sep 2014</strong></h2> 
-<section>                              
-    <h3>Lean Line Specialist</h3>
-<ul>
-    <li>Performed Quality Assurance of finished goods</li>
-    <li>Validated raw data’s of the finished goods by using DAX system</li>
-    <li>Provide Training for new employees as needed</li>
-</ul>
-</section>  
-</article>    
-<article>
-  <h2><strong>Asina Primary School - Addis Ababa, Ethiopia Sep 2005 – Aug 2011</strong></h2>
-<section>
-  <h3>Founder / Co-owner / Principal/Database Administrator</h3>
-  <ul>   
-    <li>Established Asina Primary School with the aim to provide quality and accessible education</li> 
-    <li>Increased the student population from 40 to 475 in a five-year period by attracting investors to on the  expansion of the school facilities and the curriculum</li>
-    <li>Planned and directed educational programs and activities for the 475 students and 27 staff members</li> 
-    <li>Assisted in installation, configuration, backup, recovery and upgrades of server</li>
-    <li>Developed, tested, deployed SQL changes</li>
-    <li>Created databases  and database objects like tables, views and jobs</li>
-    <li>Managed day-to-day operations of database systems</li>
-    <li>Actively recruited, trained, and supervised teaching staff</li>
-    <li>Developed and implemented programs to encourage student participation in classrooms</li> 
-    <li>Managed the school's budget and expenditures, including accounts receivables and payable</li>
-</ul>
-</section>
-</article>
-</div>
-<footer>
-    &copy;Mehret Kulala - 2018
-</footer>    
+    <!-- <div class ="body-wrapper"></div> -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a  id ="home" class="navbar-brand" href="#">Mehret Kulala</a>
+                <!-- <strong>Mehret Kulala</strong> -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a id="resume" href="#">Professional History</a>
+                    </li>
+                    <li>
+                        <a id="projects" href="#">Project</a>
+                    </li>
+                    <li>
+                        <a id="blogs" href="#">Blogs</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <div>
+        <div id="homePage">
+        <h1>
+            <strong>MY Home page</strong>
+        </h1>
+        </div>
+        <div id ="resumePage" class="hide">
+            <h1>Resume</h1>
+            <div id="myResume"></div>
+        </div>
+        <div id ="projectsPage"class="hide">
+                <h1>Projects</h1>
+            <div id="myProjects"></div>
+        </div>
+        <div id ="blogsPage"class="hide">
+                <h1>Blogs</h1>
+            <div id ="myBlogs"></div>
+        </div>
+    </div>
+    <footer>
+        &copy;Mehret Kulala - 2018
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="./dist/app.js"></script>
 </body>
+
 </html>
