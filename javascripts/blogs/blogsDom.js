@@ -3,10 +3,12 @@ const outPutDiv = $('#myBlogs');
 const createBlogPosts = (blogsArray) => {
   let domString = '';
   blogsArray.forEach((blogs) => {
+    domString += `<div class= "col-sm-8 col-md-6">`;
     domString += `<div class = "blogPost">`;
-    domString += `<h2>${blogs.title}</h2>`;
-    domString += `<h4>${blogs.date}</h4>`;
-    domString += `<p>${blogs.post}</p>`;
+    domString += `<p class ="blogDate">${blogs.date}</p>`;
+    domString += `<h3 class="blogTitle">${blogs.title}</h3>`;
+    domString += `<p class=blogPost>${blogs.post}</p>`;
+    domString += `</div>`;
     domString += `</div>`;
   });
   printToDom(domString);

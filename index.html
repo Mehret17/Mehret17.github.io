@@ -5,36 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mehret Kulala</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto|PT+Serif|Pacifico" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="styles/main.css">
-    <title>Mehret Kulala</title>
 </head>
 
 <body>
-    <!-- <div class ="body-wrapper"></div> -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a  id ="home" class="navbar-brand" href="#">Mehret Kulala</a>
-                <!-- <strong>Mehret Kulala</strong> -->
+                <a id="home" class="navbar-brand" href="#">MK</a>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
+
                     <li>
-                        <a id="resume" href="#">Professional History</a>
+                        <a id="resume" href="#">About</a>
                     </li>
                     <li>
                         <a id="projects" href="#">Project</a>
@@ -48,28 +45,55 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <div>
-        <div id="homePage">
-        <h1>
-            <strong>MY Home page</strong>
-        </h1>
+    <section id="homePage">
+        <div class="container-fluid brave">
+            <img id="homePic" src="../image/homepagecom.jpg">
+            <div class="text-block text-center">
+                <h2 class="intro">Hi, I'm Mehret Kulala. I'm a full-stack web developer.</h2>
+                <h3>Welcome to my page!</h3>
+            </div>
         </div>
-        <div id ="resumePage" class="hide">
-            <h1>Resume</h1>
-            <div id="myResume"></div>
+    </section>
+    <section id="aboutPage" class="hide">
+        <div class="row mainContent text-center">
+            <div class="col-md-6 col-sm-6 pictureContainer">
+                <img id="myImage" src="/image/headshot.jpg" style="width:51%;height:51%;">
+            </div>
+            <div class="col-md-6 col-sm-6 textContainer">
+                <h2 class="pageHeading text-uppercase">About Me</h2>
+                <br>
+                <p class="aboutMe">A dynamic and detailed oriented full stack developer with diverse background and expertise. I welcome different
+                    challenges, as that's when i learn the best.<br> Checkout my
+                    <a class="resume" target="_blank" href="files/Resume_for_Mehret _Kulala.pdf">Resume</a>.
+                </p>
+                <div class="col-12 text-center">
+                    <h4>Let's Connect:</h4>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/mehret-kulala-0156a743/" target="_blank">
+                                <i class="fab fa-linkedin fa-3x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/settings/profile" target="_blank">
+                                <i class="fab fa-github fa-3x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div id ="projectsPage"class="hide">
-                <h1>Projects</h1>
-            <div id="myProjects"></div>
-        </div>
-        <div id ="blogsPage"class="hide">
-                <h1>Blogs</h1>
-            <div id ="myBlogs"></div>
-        </div>
-    </div>
-    <footer>
-        &copy;Mehret Kulala - 2018
-    </footer>
+    </section>
+    <section id="projectsPage" class="hide">
+        <h1 class="pageHeading text-center">Projects</h1>
+        <div id="myProjects"></div>
+    </section>
+    <section id="blogsPage" class="hide">
+        <h1 class="pageHeading text-center">Blogs</h1>
+        <div id="myBlogs"></div>
+    </section>
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"

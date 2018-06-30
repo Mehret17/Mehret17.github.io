@@ -1,0 +1,10 @@
+{
+  "firebaseKey": {
+  "apiKey": "AIzaSyAvDcPuczOwQWSkKG0_cmBIDTGOKVOxNUE",
+  "authDomain": "my-presononalsite.firebaseapp.com",
+  "databaseURL": "https://my-presononalsite.firebaseio.com",
+  "projectId": "my-presononalsite",
+  "storageBucket": "",
+  "messagingSenderId": "449429374128"
+  }
+}

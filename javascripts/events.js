@@ -5,27 +5,26 @@ const navLinks = () => {
   $(document).click((e) => {
     if (e.target.id === 'home') {
       $('#homePage').removeClass('hide');
-      $('#resumePage').addClass('hide');
+      $('#aboutPage').addClass('hide');
       $('#projectsPage').addClass('hide');
       $('#blogsPage').addClass('hide');
     } else if (e.target.id === 'resume') {
       $('#homePage').addClass('hide');
-      $('#resumePage').removeClass('hide');
+      $('#aboutPage').removeClass('hide');
       $('#projectsPage').addClass('hide');
       $('#blogsPage').addClass('hide');
     } else if (e.target.id === 'projects') {
       $('#homePage').addClass('hide');
-      $('#resumePage').addClass('hide');
+      $('#aboutPage').addClass('hide');
       $('#projectsPage').removeClass('hide');
       $('#blogsPage').addClass('hide');
-      blogsEvent.getAllBlogsEvent();
+      projectsEvent.getAllProjectsEvent();
     } else if (e.target.id === 'blogs') {
       $('#homePage').addClass('hide');
-      $('#resumePage').addClass('hide');
+      $('#aboutPage').addClass('hide');
       $('#projectsPage').addClass('hide');
       $('#blogsPage').removeClass('hide');
-      projectsEvent.getAllProjectsEvent();
-
+      blogsEvent.getAllBlogsEvent();
     };
   });
 };
