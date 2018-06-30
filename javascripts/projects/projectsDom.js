@@ -4,11 +4,15 @@ const projectDiv = $('#myProjects');
 const createProjectsCard = (projectArray) => {
   let projectString = '';
   projectArray.forEach((projects) => {
-    projectString += `<div class='projectsCard'>`;
-    projectString += `<h3>${projects.title}</h3>`;
-    projectString += `<img src="${projects.imageUrl}">`;
-    projectString += `<p>${projects.description}</p>`;
-    projectString += `<a href="${projects.githubUrl}">Click here for for more information</a>`;
+    projectString += `<div class="row">`;
+    projectString += `<div class="col-sm-6">`;
+    projectString += `<div class='thumbnail projectsCard'>`;
+    projectString += `<img src="${projects.thumbnail}"</h3>`;
+    projectString += `<div class="caption">`;
+    projectString += `<p class="projectDescription">${projects.description}</p>`;
+    projectString += `<p><a id="github"href="${projects.github}" class="btn btn-primary text-center">View on Github</a></p>`;
+    projectString += `</div>`;
+    projectString += `</div>`;
     projectString += `</div>`;
   });
   printProject(projectString);

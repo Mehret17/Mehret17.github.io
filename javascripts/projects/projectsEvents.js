@@ -1,8 +1,8 @@
-const blogsFirebaseApi = require('./projectsFirebaseApi');
+const projectsFirebaseApi = require('./projectsFirebaseApi');
 const dom = require('./projectsDom');
 
 const getAllProjectsEvent = () => {
-  blogsFirebaseApi.getAllProjects()
+  projectsFirebaseApi.getAllProjects()
     .then((saveArray) => {
       dom.createProjectsCard(saveArray);
     })
