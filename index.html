@@ -15,6 +15,7 @@
 </head>
 
 <body>
+  <div class ="main-page row">
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -31,13 +32,13 @@
                 <ul class="nav navbar-nav navbar-right">
 
                     <li>
-                        <a id="resume" href="#">About</a>
+                        <a id="resume" href="#aboutPage">About</a>
                     </li>
                     <li>
-                        <a id="projects" href="#">Project</a>
+                        <a id="projects" href="#projectsPage">Project</a>
                     </li>
                     <li>
-                        <a id="blogs" href="#">Blogs</a>
+                        <a id="blogs" href="blogsPage">Blogs</a>
                     </li>
                 </ul>
             </div>
@@ -47,48 +48,52 @@
     </nav>
     <section id="homePage">
         <div class="container-fluid brave">
-            <img id="homePic" src="../image/homepagecom.jpg">
+            <!-- <img id="homePic" src="../image/sky.jpg"> -->
             <div class="text-block text-center">
-                <h2 class="intro">Hi, I'm Mehret Kulala. I'm a full-stack web developer.</h2>
-                <h3>Welcome to my page!</h3>
+                <h2 class="intro">Hi, I'm Mehret Kulala.</h2>
+                <h3>Full-stack web developer. Welcome to my page!</h3>
             </div>
         </div>
     </section>
-    <section id="aboutPage" class="hide">
-        <div class="row mainContent text-center">
-            <div class="col-md-6 col-sm-6 pictureContainer">
-                <img id="myImage" src="/image/headshot.jpg" style="width:51%;height:51%;">
-            </div>
-            <div class="col-md-6 col-sm-6 textContainer">
-                <h2 class="pageHeading text-uppercase">About Me</h2>
-                <br>
-                <p class="aboutMe">A dynamic and detailed oriented full stack developer with diverse background and expertise. I welcome different
-                    challenges, as that's when i learn the best.<br> Checkout my
-                    <a class="resume" target="_blank" href="files/Resume_for_Mehret _Kulala.pdf">Resume</a>.
-                </p>
-                <div class="col-12 text-center">
-                    <h4>Let's Connect:</h4>
-                    <ul class="list-inline social-buttons">
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/mehret-kulala-0156a743/" target="_blank">
-                                <i class="fab fa-linkedin fa-3x"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://github.com/settings/profile" target="_blank">
-                                <i class="fab fa-github fa-3x"></i>
-                            </a>
-                        </li>
-                    </ul>
+</div>
+    <section id="aboutPage">
+        <div class="container-fluid">
+            <div class="row mainContent text-center">
+                <div class="col-md-6 col-sm-6 pictureContainer">
+                    <img id="myImage" src="/image/headshot.jpg" style="width:51%;height:51%;">
+                </div>
+                <div class="col-md-6 col-sm-6 textContainer">
+                    <h2 class="pageHeading text-uppercase">About Me</h2>
+                    <br>
+                    <p class="aboutMe">A dynamic and detailed oriented full stack developer with diverse background and expertise. I welcome
+                        different challenges, as that's when i learn the best.
+                        <br> Checkout my
+                        <a class="resume" target="_blank" href="files/Resume_for_Mehret _Kulala.pdf">Resume</a>.
+                    </p>
+                    <div class="col-12 text-center">
+                        <h4>Let's Connect:</h4>
+                        <ul class="list-inline social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/mehret-kulala-0156a743/" target="_blank">
+                                    <i class="fab fa-linkedin fa-3x"></i>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://github.com/settings/profile" target="_blank">
+                                    <i class="fab fa-github fa-3x"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="projectsPage" class="hide">
-        <h1 class="pageHeading text-center">Projects</h1>
+    <section id="projectsPage">
+        <h1 class="projectPageHeading text-center">Projects</h1>
         <div id="myProjects"></div>
     </section>
-    <section id="blogsPage" class="hide">
+    <section id="blogsPage">
         <h1 class="pageHeading text-center">Blogs</h1>
         <div id="myBlogs"></div>
     </section>

@@ -2,3 +2,5 @@
 lib/node_modules
 Dist/
 db/apiKeys.json
+build
+firebase-debug.log
