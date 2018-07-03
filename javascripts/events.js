@@ -1,34 +1,27 @@
-const blogsEvent = require('./blogs/blogsEvents');
-const projectsEvent = require('./projects/projectsEvents');
+const firebaseApi = require('./firebaseApi');
+const dom = require('./dom');
 
-const navLinks = () => {
-  $(document).click((e) => {
-    if (e.target.id === 'home') {
-      $('#homePage').removeClass('hide');
-      $('#aboutPage').addClass('hide');
-      $('#projectsPage').addClass('hide');
-      $('#blogsPage').addClass('hide');
-    } else if (e.target.id === 'resume') {
-      $('#homePage').addClass('hide');
-      $('#aboutPage').removeClass('hide');
-      $('#projectsPage').addClass('hide');
-      $('#blogsPage').addClass('hide');
-    } else if (e.target.id === 'projects') {
-      $('#homePage').addClass('hide');
-      $('#aboutPage').addClass('hide');
-      $('#projectsPage').removeClass('hide');
-      $('#blogsPage').addClass('hide');
-      projectsEvent.getAllProjectsEvent();
-    } else if (e.target.id === 'blogs') {
-      $('#homePage').addClass('hide');
-      $('#aboutPage').addClass('hide');
-      $('#projectsPage').addClass('hide');
-      $('#blogsPage').removeClass('hide');
-      blogsEvent.getAllBlogsEvent();
-    };
-  });
+const getAllProjectsEvent = () => {
+  firebaseApi.getAllProjects()
+    .then((saveArray) => {
+      dom.createProjectsCard(saveArray);
+    })
+    .catch((error) => {
+      console.error('error in get all projects', error);
+    });
+};
+
+const getAllBlogsEvent = () => {
+  firebaseApi.getAllBlogs()
+    .then((saveArray) => {
+      dom.createBlogPosts(saveArray);
+    })
+    .catch((error) => {
+      console.error('error in get all blogs', error);
+    });
 };
 
 module.exports = {
-  navLinks,
+  getAllProjectsEvent,
+  getAllBlogsEvent,
 };

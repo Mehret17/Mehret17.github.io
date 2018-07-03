@@ -2,13 +2,25 @@
     padding: 0;
     margin: 0;
 } */
+.main-Page {
+margin: 0 auto;
+height: 100vh;
+background-image: url(/image/homepagecom.jpg);
+background-repeat: no-repeat;
+position: relative;
+text-align: center;
+}
+
+#homePage {
+  height: 100vh;
+}
 body {
   background-color: #fff1f0
 }
 
 .navbar-default {
   background-color: #ffdfdc;
-  color: #6F3B62 !important;
+  color: #000 !important;
   font-weight: bold;
   font-family: 'Lobster';
   font-size: 30px;
@@ -16,14 +28,16 @@ body {
 
 .navbar-brand {
   font-size: 30px;
-  color: #6F3B62 !important;
+  color: #000 !important;
   font-weight: bold;
   font-family: 'Lobster';
 }
 
 .pageHeading {
   font-family: 'Pacifico', cursive;
+  margin-bottom: 40px;
 }
+
 .container-fluid >.navbar-header {
   margin-left: 70px;
 }
@@ -36,10 +50,11 @@ body {
   padding-right: 0px;
 }
 
-#homePic {
+/* #homePic {
   width: 100%;
   height: 100%;
-}
+  position: relative;
+} */
 
 .brave {
   position: relative;
@@ -47,7 +62,7 @@ body {
 
 .text-block {
   position: absolute;
-  color: #6F3B62 !important;
+  color:#000 !important;
   bottom: 310px;
   right: 130px;
   padding-left: 62px;
@@ -65,13 +80,14 @@ body {
 }
 
 #myImage {
+  margin-top: 4%;
   border-radius: 50%;
 }
 
 .aboutMe {
   font-size: 23px;
   font-family: 'Roboto';
-  color: #454545;
+  color: #000 !important;
 }
 
 #projectsPage {
@@ -83,6 +99,7 @@ body {
 .projectDescription {
   font-size:15px;
 }
+
 .btn-primary {
   background-color: #5B2333;
   border-color: #5B2333;
@@ -93,7 +110,7 @@ body {
 }
 
 a {
-  color: #6F3B62 !important;
+  color: #000 !important;
 }
 
 #github {

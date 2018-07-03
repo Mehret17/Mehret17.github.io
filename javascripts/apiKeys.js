@@ -1,22 +1,5 @@
-let firebaseConfig = {};
-let uid = '';
-
-const setConfig = (fbcConfig) => {
-  firebaseConfig = fbcConfig;
-  console.log('setConfig:',firebaseConfig);
-};
-
-const setUID = (newUID) => {
-  uid = newUID;
-};
-
-const getSetFirebaseConfig = () => {
-  return firebaseConfig;
-};
-
-const getSetUID = () => {
-  return uid;
-};
+const {setConfig,} = require('./firebaseApi');
+const {getAllProjectsEvent,getAllBlogsEvent, } = require('./events');
 
 const apiKeys = () => {
   return new Promise((resolve, reject) => {
@@ -36,6 +19,8 @@ const retrieveKeys = () => {
       console.log(results);
       firebase.initializeApp(results.firebaseKey);
       setConfig(results.firebaseKey);
+      getAllProjectsEvent();
+      getAllBlogsEvent ();
     })
     .catch((err) => {
       console.error('retrieve err:', err);
@@ -43,9 +28,5 @@ const retrieveKeys = () => {
 };
 
 module.exports = {
-  setConfig,
-  setUID,
-  getSetFirebaseConfig,
-  getSetUID,
   retrieveKeys,
 };
