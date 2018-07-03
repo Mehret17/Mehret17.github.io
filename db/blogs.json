@@ -77,13 +77,25 @@
     "id": "blog13", 
     "title": "Firebase", 
     "date": "05/28/2018", 
-    "post": "A Realtime database and cloud hosted database where data is stored. I haven’t gotten to do this in my assignment yet but I can wait. I’ve heard the words creating, deleting, updating  databases in the past few years and this is something I have an interest in. When I look at it in class it seems a bit complicated but I am positive that once I start working on it the pieces will fall in place. Since we were told not to trust the internet documentation with firebase as much as I want to google and know more about it I am wary to do that as I really don’t want to confuse myself and also get the wrong information. All i can say is I can’t wait to try what I’ve learned in class it might not be simple but I am up for the challenge 😊."
+    "post": "A Real time database and cloud hosted database where data is stored. I haven’t gotten to do this in my assignment yet but I can wait. I’ve heard the words creating, deleting, updating  databases in the past few years and this is something I have an interest in. When I look at it in class it seems a bit complicated but I am positive that once I start working on it the pieces will fall in place. Since we were told not to trust the internet documentation with firebase as much as I want to google and know more about it I am wary to do that as I really don’t want to confuse myself and also get the wrong information. All i can say is I can’t wait to try what I’ve learned in class it might not be simple but I am up for the challenge 😊."
   },
   {
     "id": "blog14", 
     "title": "Firebase Auth", 
     "date": "05/28/2018", 
     "post": "This week we learned about Firebase Authentication. I see authentication in my day to day life but has never occurred to me how that is being created weather when registering or signing into different websites. It was fascinating learning about the back end side of it and i am sure the more i apply it in projects i will learn more fascinating things about authentication."
+  },
+  {
+    "id": "blog15", 
+    "title": "Saas", 
+    "date": "06/18/2018", 
+    "post": "I understand Sass as an organized form of CSS with infinite features. Before starting to apply Sass to any of my projects I still need to do a bit digging up. I also like the different features like variables – where we anybody can preset a variable and use them when needed, Nesting:- where we are able to nest under different element the same way as HTML, the feature lists goes on and on. There are also other features like mixins and import that kind of resembles with JS. To conclude I like Sass and I can’t wait to apply it in my projects."
+  },
+  {
+    "id": "blog16", 
+    "title": "React", 
+    "date": "06/25/2018", 
+    "post": "I really don’t know what to say about React – I feel like its to early for me to write about it. I have mixed feelings …. At first, I was super excited about it and also liked the step by step guide from my instructor but as we go deeper and deeper in the ocean…. I don’t know really know what my feeling is towards it. Once I get the hang of it I am definitely sure I will like it or be sure of my feelings. One thing I’ve learned since I started taking this course is don’t be to quick to conclude/judge. I ‘ve learned that all the topics we covered through out kinda seem gibberish at first but then the more I practice and the more I pay attention I understand it. So I am sure I will understand React through time I just need to give it time."
   } 
   ]
 }
