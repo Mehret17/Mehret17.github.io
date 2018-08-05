@@ -11,7 +11,6 @@ p {
 .navbar-default {
   font-weight: bold;
   font-family: "Montserrat";
-  /* font-size: 15px; */
   text-transform: uppercase !important;
   color:#1e3f20 !important;
 }
@@ -40,6 +39,10 @@ p {
   margin-right: 50px;
   color: #1e3f20 !important;
 }
+.navbar-default .navbar-nav>li>a {
+  color: #1e3f20 !important;
+}
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
@@ -82,14 +85,11 @@ p {
 
 .mainContent {
   margin-top: 4%;
-  /* display: inline-block;
-  position: relative; */
 }
 
 #myImage {
   margin-top: 4%;
   border-radius: 68%;
-  /* width: 225px; */
   height: 300px;
   color: #1e3f20;
   margin-left: 100px;
@@ -100,6 +100,7 @@ p {
   font-size: 17px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #1e3f20 !important;
+  margin-right: 50px;
 }
 
 .projectsCard {
@@ -131,3 +132,16 @@ color: #1e3f20
 #github {
   color: white;
 }
+
+.blogPost {
+  text-align: justify;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #1e3f20 !important;
+  font-size: 14px;
+}
+
+.blogT {
+  color: #5B2333 !important;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+

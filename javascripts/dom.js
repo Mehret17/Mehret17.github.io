@@ -6,12 +6,12 @@ const createProjectsCard = (projectArray) => {
   projectArray.forEach((projects) => {
     projectString += `<div class="container-fluid">`;
     projectString += `<div class="row">`;
-    projectString += `<div class="col-md-6 col-md-3-offset">`;
+    projectString += `<div class="col-sm-6">`;
     projectString += `<div class='thumbnail projectsCard'>`;
     projectString += `<img src="${projects.thumbnail}"</h3>`;
     projectString += `<div class="caption">`;
     projectString += `<p class="projectDescription">${projects.description}</p>`;
-    projectString += `<p><a id="github"href="${projects.github}" class="btn btn-primary text-center">View on Github</a></p>`;
+    projectString += `<p><a id="github"href="${projects.github}" class="btn btn-primary text-center github">View on Github</a> <a id="github"href="${projects.url}" class="btn btn-primary text-center project">View Project</a> </p>`;
     projectString += `</div>`;
     // projectString += `</div>`;
     projectString += `</div>`;
@@ -29,14 +29,14 @@ const outPutDiv = $('#myBlogs');
 const createBlogPosts = (blogsArray) => {
   let domString = '';
   blogsArray.forEach((blogs) => {
-    domString += `<div class="container-fluid col-md-6 col-md-offset-3">`;
-    domString += `<div class= "col-md-6 col-md-offset-3">`;
+    domString += `<div class="col-md-6 col-md-offset-3">`;
+    // domString += `<div class= "col-md-6 col-md-offset-3">`;
     domString += `<div class = "blogPost">`;
-    domString += `<p class ="blogDate">${blogs.date}</p>`;
-    domString += `<h3 class="blogTitle">${blogs.title}</h3>`;
+    domString += `<p class ="blogT">${blogs.date}</p>`;
+    domString += `<h3 class="blogT">${blogs.title}</h3>`;
     domString += `<p class=blogPost>${blogs.post}</p>`;
     domString += `</div>`;
-    domString += `</div>`;
+    // domString += `</div>`;
     domString += `</div>`;
   });
   printToDom(domString);

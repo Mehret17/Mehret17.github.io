@@ -16,7 +16,6 @@ const apiKeys = () => {
 const retrieveKeys = () => {
   apiKeys()
     .then((results) => {
-      console.log(results);
       firebase.initializeApp(results.firebaseKey);
       setConfig(results.firebaseKey);
       getAllProjectsEvent();
