@@ -4,12 +4,9 @@ let firebaseConfig = {};
 
 const setConfig = (fbcConfig) => {
   firebaseConfig = fbcConfig;
-  console.log('setConfig:',firebaseConfig);
 };
 
 const getAllProjects = () => {
-  // firebaseConfig = getSetFirebaseConfig();
-  console.log('getAllProjects:', firebaseConfig);
   return new Promise((resolve, reject) => {
     const allProjectsArray = [];
     $.ajax({
@@ -32,8 +29,6 @@ const getAllProjects = () => {
 };
 
 const getAllBlogs = () => {
-  // firebaseConfig = getSetFirebaseConfig();
-  console.log('getAllblogs:', firebaseConfig);
   return new Promise((resolve, reject) => {
     const allBlogsArray = [];
     $.ajax({

@@ -10,22 +10,22 @@
   },
 
   "project2": {
-    "title": "Pet Adoption Website",
-    "thumbnail": "https://raw.githubusercontent.com/Mehret17/Adoption/master/Pictures/mainpage.PNG",
-    "description": "A project of designing a pet adoption website where pictures of pets are displayed on the main page and when a button with the pet name is clicked the clicked button animal only displays in the webpage.",
+    "title": "Ex-Tracker",
+    "thumbnail": "https://raw.githubusercontent.com/Mehret17/ex-tracker/master/images/Page.PNG",
+    "description": "An ex-tracker app where a user is able to track their ex by the location and time of the day.",
     "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
     "available": true,
-    "url": "https://adoption-webstie.firebaseapp.com/",
-    "github": "https://github.com/Mehret17/Adoption"
+    "url": "https://ex-tracker-66184.firebaseapp.com/",
+    "github": "https://github.com/Mehret17/ex-tracker"
   },
 
   "project3": {
     "title": "Pet Adoption Website",
-    "thumbnail": "https://raw.githubusercontent.com/Mehret17/Adoption/master/Pictures/mainpage.PNG",
-    "description": "A project of designing a pet adoption website where pictures of pets are displayed on the main page and when a button with the pet name is clicked the clicked button animal only displays in the webpage.",
-    "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+    "thumbnail": "hhttps://github.com/Mehret17/KidzYulp/blob/master/src/image/landingpage.PNG",
+    "description": "An application that is built using React. This app is to help parents/guardians find any kind activities and allows them to add other activities they know of and be able to save and share the activities they are interested on or like",
+    "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github, React, Npm",
     "available": true,
     "url": "https://adoption-webstie.firebaseapp.com/",
-    "github": "https://github.com/Mehret17/Adoption"
+    "github": "https://github.com/Mehret17/KidzYulp"
   }
 }
