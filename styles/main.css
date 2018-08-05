@@ -30,6 +30,7 @@ p {
   font-family:"Montserrat" !important;
   margin-bottom: 40px;
   text-transform: uppercase !important;
+  margin-top: 50px;
 }
 .container-fluid > .navbar-header {
   margin-left: 70px;
@@ -88,7 +89,7 @@ p {
 }
 
 #myImage {
-  margin-top: 4%;
+  margin-top: 50px;
   border-radius: 68%;
   height: 300px;
   color: #1e3f20;
