@@ -109,9 +109,12 @@ p {
 }
 
 #projectsPage {
-  margin-top: 6%;
+  /* margin-top: 10%; */
   margin-left: 50px;
   margin-right: 50px;
+}
+.projectHeading {
+  margin-top: 20px;
 }
 
 .projectDescription {
