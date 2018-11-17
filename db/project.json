@@ -20,7 +20,7 @@
   },
 
   "project3": {
-    "title": "Pet Adoption Website",
+    "title": "KIDZ YULP",
     "thumbnail": "hhttps://github.com/Mehret17/KidzYulp/blob/master/src/image/landingpage.PNG",
     "description": "An application that is built using React. This app is to help parents/guardians find any kind activities and allows them to add other activities they know of and be able to save and share the activities they are interested on or like",
     "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github, React, Npm",

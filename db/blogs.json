@@ -1,101 +1,94 @@
 {
-"blogs": [
-    {
-      "id": "blog1", 
+   "Blog1": {
       "title": "HTML and CSS", 
       "date": "02/12/2018", 
-      "post": "In the first week of starting school we’ve covered these three basic topics HTML, CSS and GIT. CSS is one of the topic I still struggle with. Whether it is identifying selector to add CSS to the correct tag/attribute or knowing what kind/types of elements to use to get to the desired result. After working on my first assignment I’ve realized that CSS is trial and error for me – by knowing what to research/google the end goal can be achieved. All the topics covered last week have their own interesting things,however what stood the most for me was Git/Github – I found this to be very interesting due to the fact that it makes collaboration so much easier and meaningful. It also can be considered as an encyclopedia of code where large number of codes exist in it that are used to build software.As much as I enjoy my time at NSS – something I didn’t know/realize before is how to manage my time wisely. With all the assignments and life going on I feel like I need to take a class that teaches “How to manage your time wisely”."
+      "post": "In the first week of starting school we’ve covered these three basic topics HTML, CSS and GIT. CSS is one of the topic I still struggle with. Whether it is Blogentifying selector to add CSS to the correct tag/attribute or knowing what kind/types of elements to use to get to the desired result. After working on my first assignment I’ve realized that CSS is trial and error for me – by knowing what to research/google the end goal can be achieved. All the topics covered last week have their own interesting things,however what stood the most for me was Git/Github – I found this to be very interesting due to the fact that it makes collaboration so much easier and meaningful. It also can be consBlogered as an encyclopedia of code where large number of codes exist in it that are used to build software.As much as I enjoy my time at NSS – something I dBlogn’t know/realize before is how to manage my time wisely. With all the assignments and life going on I feel like I need to take a class that teaches “How to manage your time wisely”."
       },
-    {
-      "id": "blog2", 
+      "Blog2":   {
       "title": "Javascript", 
       "date": "02/19/2018", 
       "post": "Ready or not here comes <strong>JavaScript</strong> – JS has been a bit challenging to me. I am still wrapping my head around Arrays, For loops, Objects and Functions. Even though I feel like the class is going fast I’m trying to take it slow and learn one thing at a time. I am sure that I will get better at solving any kind of Javascript problem but I still need to do a lot of practicing and reading. The Js Array challenge was the most difficult for me this week trying to figure out how to go about solving the problem."
       },
-    {
-      "id": "blog3", 
+      "Blog3": {
       "title": "Advanced JS and Git for Teams", 
       "date": "02/26/2018", 
-      "post": "Advance array method was one of the topic covered on this week’s lesson. Once I get the hang of it I am positive that I will be grateful for these methods but with my current state not quite there yet but will definitely be soon. We also covered how team mates work in one project from beginning to end. Coming up with ideas on how to design the web page, listing what kind of data is needed and assigning tickets for each task. Went over free framework tools and how to use them – found this one to be very interesting – where the frame work tool we used can be shared and at the same be edited by different team mates makes collaboration so easy."
+      "post": "Advance array method was one of the topic covered on this week’s lesson. Once I get the hang of it I am positive that I will be grateful for these methods but with my current state not quite there yet but will definitely be soon. We also covered how team mates work in one project from beginning to end. Coming up with Blogeas on how to design the web page, listing what kind of data is needed and assigning tickets for each task. Went over free framework tools and how to use them – found this one to be very interesting – where the frame work tool we used can be shared and at the same be edited by different team mates makes collaboration so easy."
       },
-    {
-      "id": "blog4", 
+      "Blog4":  {
       "title": "E6, Dom Interaction and MarkDown", 
       "date": "03/12/2018", 
-      "post": "In the past weeks was the first git project we had as a group. We were instructed to build a band website with different pages linking to the home page so each of my group members were working on one page but we could only use one js file which led to git conflict when we tried to merge to master. I can say I learned quite a lot about git incidents from this exercise and how to resolve the conflicts. After completing the group assignments, we learned ES6 which looks kind of fancy and easy but a tiny bit confusing, I guess the confusion part won’t stay for long. We also covered interacting and traversing in DOM which I believe is the biggest part of JS to make a web page interactive."
+      "post": "In the past weeks was the first git project we had as a group. We were instructed to build a band website with different pages linking to the home page so each of my group members were working on one page but we could only use one js file which led to git conflict when we tried to merge to master. I can say I learned quite a lot about git incBlogents from this exercise and how to resolve the conflicts. After completing the group assignments, we learned ES6 which looks kind of fancy and easy but a tiny bit confusing, I guess the confusion part won’t stay for long. We also covered interacting and traversing in DOM which I believe is the biggest part of JS to make a web page interactive."
      },
-    {
-    "id": "blog5", 
+     "Blog5": {
     "title": "XHR", 
     "date": "03/26/2018", 
     "post": "This week we looked at how to bring in data from a different database and load it in the webpage we are working on. It doesnt seem complicated might be a bit trickier."
         
     },
-    {
-    "id": "blog6", 
+     
+    "Blog6": {
     "title": "Bootstrap", 
     "date": "04/2/2018", 
-    "post": "Bootstrap grid system and how to get to set of data from two different Json file is what we've looked at this week. We focused on how to link two different data sets by their common key."  
+    "post": "Bootstrap grBlog system and how to get to set of data from two different Json file is what we've looked at this week. We focused on how to link two different data sets by their common key."  
     },
+    "Blog7":
     {
-    "id": "blog7", 
     "title": "Browserify", 
     "date": "04/2/2018", 
-    "post": "Task Runners and Browserify are the topics we covered this week. The confusing part for me is where we are requiring and exporting. Before browsify we did all the code in one main.js file, now we have everything in a different js files and we require and export the functions on the other files...hmmm its a bit confusing but i believe that it will be easier once i get the hang of it."    
+    "post": "Task Runners and Browserify are the topics we covered this week. The confusing part for me is where we are requiring and exporting. Before browsify we dBlog all the code in one main.js file, now we have everything in a different js files and we require and export the functions on the other files...hmmm its a bit confusing but i believe that it will be easier once i get the hang of it."    
     },
+    "Blog8": 
     {
-    "id": "blog8", 
     "title": "Browserify",
     "date": "04/16/2018", 
     "post": "Now that it’s the second week of using browserify I am getting the hang of it. Eventhough I get irritated when grunt yells at me when I make errors I like the fact that its keeping my code clean and neat. I still need to work more on understanding the circular dependency issues and how to solve the function related errors the grunt throws out."
     },
+    "Blog9":
     {
-    "id": "blog9", 
     "title": "Group Assignment - 2", 
     "date": "04/23/2018", 
-    "post": "On this week we we were given to build a chatty app that has different features and present it in  class. I always learn a lot from group projects from my team mates. We planned each and every step thoroughly  and discussed all the steps in detail.The project was a success due to the throw planning and good communication. Everybody was helpful with any questions i had and i've learned a lot from each of my team members.I want to say the best lesson i had was to plan each and every step clearly and precisely which i kinda dont do often.i also like listening to different ideas and how everybody has their own way of solving a problem or tackling a task. Eventhough i wanted to challenge myself by working on something i haven't done most of them were already taken but i still learned a lot from the codes they did and am sure those will come in handy."
+    "post": "On this week we we were given to build a chatty app that has different features and present it in  class. I always learn a lot from group projects from my team mates. We planned each and every step thoroughly  and discussed all the steps in detail.The project was a success due to the throw planning and good communication. Everybody was helpful with any questions i had and i've learned a lot from each of my team members.I want to say the best lesson i had was to plan each and every step clearly and precisely which i kinda dont do often.i also like listening to different Blogeas and how everybody has their own way of solving a problem or tackling a task. Eventhough i wanted to challenge myself by working on something i haven't done most of them were already taken but i still learned a lot from the codes they dBlog and am sure those will come in handy."
     },
+    "Blog10": 
    {
-    "id": "blog10", 
     "title": "Jquery", 
     "date": "04/30/2018", 
     "post": "Finally we started Jquery!!! When i took the pre-work on tree house the easiest part for me was jquery it made javascript easier - so i was excited that we started jquery this week and will be using it moving forward. I enjoyed every bit of it! I like how it makes my life easier by taking a code that was two three lines long and converting it to a single line. I also love love can not stress enough the “jquery methods”. It just makes life so much easier. The mission “Write Less Do More” is truly a well thought out mission that describes the objective in a few phrases. I am also impressed with how well its documented, starting from the cheat sheet( also like an appendix) to the explicit documentation. I applaud the guy who created it.I like it!"
     } ,
+    "Blog11": 
     {
-    "id": "blog11", 
     "title": "Promise", 
     "date": "05/14/2018", 
-    "post": "Promise is one of those topics where when it was first explained in class I kind of understood it well but got very confused when I tried to apply it by myself.The .then, .catch method , resolving a promise ... all these vocabularies are still new to me and trying very hard to wrap my head around them. Also the part that is difficult for me to understand is am I returning promise or not? If so can I use .then method? I am still struggling with similar questions, however practicing more and reading articles/watching videos will clear all these ambiguities. When completing the exercise that is related to promise"
+    "post": "Promise is one of those topics where when it was first explained in class I kind of understood it well but got very confused when I tried to apply it by myself.The .then, .catch method , resolving a promise ... all these vocabularies are still new to me and trying very hard to wrap my head around them. Also the part that is difficult for me to understand is am I returning promise or not? If so can I use .then method? I am still struggling with similar questions, however practicing more and reading articles/watching vBlogeos will clear all these ambiguities. When completing the exercise that is related to promise"
     },
+    "Blog12": 
     {
-    "id": "blog12", 
     "title": "Api", 
     "date": "05/21/2018", 
-    "post": "I found API to be an interesting topic, all these times I’ve been using API wherever I search on google or login to Facebook but did not realize that I was requesting an API. I also found it interesting on how most companies have their own API and anybody can use them to build different kinds of Web or app. Using Http verbs(CRUD) and API Keys  are also other interesting facts about APIs. Completing a research on any API is an essential part of it as most of them have different requirements and rules. In connection with requesting API and validating the information rendered is accurate we were introduced with a tool called “Postman” which has become my best friend. This tools validates any API request in one stop – Provides the status of the request, changes the format into JSON or any other format. Like Postman a lot."
+    "post": "I found API to be an interesting topic, all these times I’ve been using API wherever I search on google or login to Facebook but dBlog not realize that I was requesting an API. I also found it interesting on how most companies have their own API and anybody can use them to build different kinds of Web or app. Using Http verbs(CRUD) and API Keys  are also other interesting facts about APIs. Completing a research on any API is an essential part of it as most of them have different requirements and rules. In connection with requesting API and valBlogating the information rendered is accurate we were introduced with a tool called “Postman” which has become my best friend. This tools valBlogates any API request in one stop – ProvBloges the status of the request, changes the format into JSON or any other format. Like Postman a lot."
     },
+    "Blog13": 
   {
-    "id": "blog13", 
     "title": "Firebase", 
     "date": "05/28/2018", 
     "post": "A Real time database and cloud hosted database where data is stored. I haven’t gotten to do this in my assignment yet but I can wait. I’ve heard the words creating, deleting, updating  databases in the past few years and this is something I have an interest in. When I look at it in class it seems a bit complicated but I am positive that once I start working on it the pieces will fall in place. Since we were told not to trust the internet documentation with firebase as much as I want to google and know more about it I am wary to do that as I really don’t want to confuse myself and also get the wrong information. All i can say is I can’t wait to try what I’ve learned in class it might not be simple but I am up for the challenge 😊."
   },
+  "Blog14": 
   {
-    "id": "blog14", 
     "title": "Firebase Auth", 
     "date": "05/28/2018", 
-    "post": "This week we learned about Firebase Authentication. I see authentication in my day to day life but has never occurred to me how that is being created weather when registering or signing into different websites. It was fascinating learning about the back end side of it and i am sure the more i apply it in projects i will learn more fascinating things about authentication."
+    "post": "This week we learned about Firebase Authentication. I see authentication in my day to day life but has never occurred to me how that is being created weather when registering or signing into different websites. It was fascinating learning about the back end sBloge of it and i am sure the more i apply it in projects i will learn more fascinating things about authentication."
   },
+  "Blog15":
   {
-    "id": "blog15", 
     "title": "Saas", 
     "date": "06/18/2018", 
     "post": "I understand Sass as an organized form of CSS with infinite features. Before starting to apply Sass to any of my projects I still need to do a bit digging up. I also like the different features like variables – where we anybody can preset a variable and use them when needed, Nesting:- where we are able to nest under different element the same way as HTML, the feature lists goes on and on. There are also other features like mixins and import that kind of resembles with JS. To conclude I like Sass and I can’t wait to apply it in my projects."
   },
+  "Blog16": 
   {
-    "id": "blog16", 
     "title": "React", 
     "date": "06/25/2018", 
-    "post": "I really don’t know what to say about React – I feel like its to early for me to write about it. I have mixed feelings …. At first, I was super excited about it and also liked the step by step guide from my instructor but as we go deeper and deeper in the ocean…. I don’t know really know what my feeling is towards it. Once I get the hang of it I am definitely sure I will like it or be sure of my feelings. One thing I’ve learned since I started taking this course is don’t be to quick to conclude/judge. I ‘ve learned that all the topics we covered through out kinda seem gibberish at first but then the more I practice and the more I pay attention I understand it. So I am sure I will understand React through time I just need to give it time."
+    "post": "I really don’t know what to say about React – I feel like its to early for me to write about it. I have mixed feelings …. At first, I was super excited about it and also liked the step by step guBloge from my instructor but as we go deeper and deeper in the ocean…. I don’t know really know what my feeling is towards it. Once I get the hang of it I am definitely sure I will like it or be sure of my feelings. One thing I’ve learned since I started taking this course is don’t be to quick to conclude/judge. I ‘ve learned that all the topics we covered through out kinda seem gibberish at first but then the more I practice and the more I pay attention I understand it. So I am sure I will understand React through time I just need to give it time."
   } 
-  ]
 }

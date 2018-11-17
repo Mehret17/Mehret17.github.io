@@ -1,7 +1,6 @@
-
 const projectDiv = $('#myProjects');
 
-const createProjectsCard = (projectArray) => {
+const createProjectsCard = projectArray => {
   let projectString = '';
   projectArray.forEach((projects) => {
     projectString += `<div class="container-fluid">`;
@@ -10,8 +9,14 @@ const createProjectsCard = (projectArray) => {
     projectString += `<div class='thumbnail projectsCard'>`;
     projectString += `<img src="${projects.thumbnail}"</h3>`;
     projectString += `<div class="caption">`;
-    projectString += `<p class="projectDescription">${projects.description}</p>`;
-    projectString += `<p><a id="github"href="${projects.github}" class="btn btn-primary text-center github">View on Github</a> <a id="github"href="${projects.url}" class="btn btn-primary text-center project">View Project</a> </p>`;
+    projectString += `<p class="projectDescription">${
+      projects.description
+    }</p>`;
+    projectString += `<p><a id="github"href="${
+      projects.github
+    }" class="btn btn-primary text-center github">View on Github</a> <a id="github"href="${
+      projects.url
+    }" class="btn btn-primary text-center project">View Project</a> </p>`;
     projectString += `</div>`;
     // projectString += `</div>`;
     projectString += `</div>`;
@@ -20,13 +25,13 @@ const createProjectsCard = (projectArray) => {
   printProject(projectString);
 };
 
-const printProject = (projects) => {
+const printProject = projects => {
   projectDiv.append(projects);
 };
 
 const outPutDiv = $('#myBlogs');
 
-const createBlogPosts = (blogsArray) => {
+const createBlogPosts = blogsArray => {
   let domString = '';
   blogsArray.forEach((blogs) => {
     domString += `<div class="col-md-6 col-md-offset-3">`;
@@ -42,11 +47,33 @@ const createBlogPosts = (blogsArray) => {
   printToDom(domString);
 };
 
-const printToDom = (blogs) => {
+const printToDom = blogs => {
   outPutDiv.append(blogs);
+};
+
+const techDiv = $('#techs');
+
+const createTech = techsArray => {
+  let techString = '';
+  techString += `<div class="techCardHolder">`;
+  techsArray.forEach((techs) => {
+    techString += `<div class="techCard">`;
+    techString += `<div class="techImage">`;
+    techString += `<img class="tech-pic" src="${techs.img}">`;
+    // techString += `<p class="techName">${techs.name}</p>`;
+    techString += `</div>`;
+    techString += '</div>';
+  });
+  techString += `</div>`;
+  printTech(techString);
+};
+
+const printTech = techs => {
+  techDiv.append(techs);
 };
 
 module.exports = {
   createProjectsCard,
   createBlogPosts,
+  createTech,
 };
