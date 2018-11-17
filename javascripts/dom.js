@@ -29,10 +29,10 @@ const printProject = projects => {
   projectDiv.append(projects);
 };
 
-const outPutDiv = $("#myBlogs");
+const outPutDiv = $('#myBlogs');
 
 const createBlogPosts = blogsArray => {
-  let domString = "";
+  let domString = '';
   blogsArray.forEach(blogs => {
     domString += `<div class="col-md-6 col-md-offset-3">`;
     // domString += `<div class= "col-md-6 col-md-offset-3">`;
@@ -51,10 +51,10 @@ const printToDom = blogs => {
   outPutDiv.append(blogs);
 };
 
-const techDiv = $("#techs");
+const techDiv = $('#techs');
 
 const createTech = techsArray => {
-  let techString = "";
+  let techString = '';
   techsArray.forEach(techs => {
     techString += `<div class="techIcons">`;
     techString += `<img class="techImg" src="${techs.img}">`;
@@ -71,5 +71,5 @@ const printTech = techs => {
 module.exports = {
   createProjectsCard,
   createBlogPosts,
-  createTech
+  createTech,
 };
