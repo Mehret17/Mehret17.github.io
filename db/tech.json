@@ -1,0 +1,66 @@
+{
+  "tech1": {
+    "img": "./image/AJAX.png",
+    "name" : "Ajax"
+  },
+  "tech2": {
+    "img": "./image/Bootstrap.png",
+    "name" : "Bootstrap"
+  },
+  "tech3": {
+    "img": "./image/Browserify.png",
+    "name" : "Browserify"
+  },
+  "tech4": {
+    "img": "./image/CSS3.jpg",
+    "name" : "CSS"
+  },
+  "tech5": {
+    "img": "./image/Firebase.png",
+    "name" : "Firebase"
+  },
+  "tech6": {
+    "img": "./image/Git.png",
+    "name" : "Git"
+  },
+  "tech7": {
+    "img": "./image/GitHub.gng",
+    "name" : "Github"
+  },
+  "tech8": {
+    "img": "./image/Grunt.png",
+    "name" : "Grunt"
+  },
+  "tech9": {
+    "img": "./image/HTML.png",
+    "name" : "HTML"
+  },
+  "tech10": {
+    "img": "./image/Javascript.png",
+    "name" : "Javascript"
+  },
+  "tech11": {
+    "img": "./image/Jquery.jpg",
+    "name" : "JQuery"
+  },
+  "tech12": {
+    "img": "./image/React.png",
+    "name" : "React"
+  },
+  "tech13": {
+    "img": "./image/Sass.png",
+    "name" : "Sass"
+  },
+  "tech14": {
+    "img": "./image/SqlServer.jpg",
+    "name" : "SQL"
+  },
+  "tech15": {
+    "img": "./image/C#.jpg",
+    "name" : "C#"
+  },
+  "tech16": {
+    "img": "./image/.net.jpg",
+    "name" : "Net"
+  }
+}

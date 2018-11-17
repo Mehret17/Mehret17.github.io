@@ -102,6 +102,10 @@ p {
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #1e3f20 !important;
   margin-right: 50px;
+  /* text-align: justify; */
+}
+.description {
+  text-align: justify;
 }
 
 .projectsCard {
