@@ -90,10 +90,10 @@ const techDiv = $('#techs');
 
 const createTech = techsArray => {
   let techString = '';
-  techString += `<div class="tech-card-div">`;
+  techString += `<div class="techCardHolder">`;
   techsArray.forEach((techs) => {
-    techString += `<div class="tech-card">`;
-    techString += `<div class="techpic-div">`;
+    techString += `<div class="techCard">`;
+    techString += `<div class="techImage">`;
     techString += `<img class="tech-pic" src="${techs.img}">`;
     // techString += `<p class="techName">${techs.name}</p>`;
     techString += `</div>`;

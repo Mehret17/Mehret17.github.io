@@ -151,19 +151,19 @@ color: #1e3f20
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.tech-card-div {
+.techCardHolder{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.tech-card {
+.techCard {
   display: inline-block;
   width: 10%;
   margin: 1%;
 }
 
-.techpic-div {
+.techImage {
   height: 150px;
   position: relative;
 }
@@ -177,6 +177,3 @@ color: #1e3f20
   transform: translate(-50%, -50%);
 }
 
-@media{
-  
-}
