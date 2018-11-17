@@ -1,37 +1,37 @@
 {
-  "tech1": {
+  "tech01": {
     "img": "./image/AJAX.png",
     "name" : "Ajax"
   },
-  "tech2": {
+  "tech02": {
     "img": "./image/Bootstrap.png",
     "name" : "Bootstrap"
   },
-  "tech3": {
+  "tech03": {
     "img": "./image/Browserify.png",
     "name" : "Browserify"
   },
-  "tech4": {
-    "img": "./image/CSS3.jpg",
+  "tech04": {
+    "img": "./image/CSS.png",
     "name" : "CSS"
   },
-  "tech5": {
+  "tech05": {
     "img": "./image/Firebase.png",
     "name" : "Firebase"
   },
-  "tech6": {
+  "tech06": {
     "img": "./image/Git.png",
     "name" : "Git"
   },
-  "tech7": {
-    "img": "./image/GitHub.gng",
+  "tech07": {
+    "img": "./image/GitHub.png",
     "name" : "Github"
   },
-  "tech8": {
+  "tech08": {
     "img": "./image/Grunt.png",
     "name" : "Grunt"
   },
-  "tech9": {
+  "tech09": {
     "img": "./image/HTML.png",
     "name" : "HTML"
   },
@@ -56,7 +56,7 @@
     "name" : "SQL"
   },
   "tech15": {
-    "img": "./image/C#.jpg",
+    "img": "./image/C.png",
     "name" : "C#"
   },
   "tech16": {

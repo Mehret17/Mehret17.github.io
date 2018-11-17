@@ -27,7 +27,7 @@ const getAllTechImgsEvent = () => {
   firebaseApi
     .getAllTechs()
     .then(saveArray => {
-      dom.createTechImgs(saveArray);
+      dom.createTech(saveArray);
     })
     .catch(error => {
       console.error('error in get all images', error);

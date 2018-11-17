@@ -37,7 +37,7 @@ const projectDiv = $('#myProjects');
 
 const createProjectsCard = projectArray => {
   let projectString = '';
-  projectArray.forEach(projects => {
+  projectArray.forEach((projects) => {
     projectString += `<div class="container-fluid">`;
     projectString += `<div class="row">`;
     projectString += `<div class="col-sm-6">`;
@@ -68,7 +68,7 @@ const outPutDiv = $('#myBlogs');
 
 const createBlogPosts = blogsArray => {
   let domString = '';
-  blogsArray.forEach(blogs => {
+  blogsArray.forEach((blogs) => {
     domString += `<div class="col-md-6 col-md-offset-3">`;
     // domString += `<div class= "col-md-6 col-md-offset-3">`;
     domString += `<div class = "blogPost">`;
@@ -90,12 +90,16 @@ const techDiv = $('#techs');
 
 const createTech = techsArray => {
   let techString = '';
-  techsArray.forEach(techs => {
-    techString += `<div class="techIcons">`;
-    techString += `<img class="techImg" src="${techs.img}">`;
-    techString += `<p class="techName">${techs.name}</p>`;
+  techString += `<div class="tech-card-div">`;
+  techsArray.forEach((techs) => {
+    techString += `<div class="tech-card">`;
+    techString += `<div class="techpic-div">`;
+    techString += `<img class="tech-pic" src="${techs.img}">`;
+    // techString += `<p class="techName">${techs.name}</p>`;
     techString += `</div>`;
+    techString += '</div>';
   });
+  techString += `</div>`;
   printTech(techString);
 };
 
@@ -139,7 +143,7 @@ const getAllTechImgsEvent = () => {
   firebaseApi
     .getAllTechs()
     .then(saveArray => {
-      dom.createTechImgs(saveArray);
+      dom.createTech(saveArray);
     })
     .catch(error => {
       console.error('error in get all images', error);
